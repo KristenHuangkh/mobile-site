@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+section.container {
+    display: flex;
+    flex-direction: column;
+
+    header {
+        display: flex;
+        background-color: #4F788E;
+
+        .hamburger {
+            width: 50px;
+            height: 50px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        div.logo {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            div.logo-group {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+
+        aside.mobile-menu {
+            height: 0;
+            width: 150px;
+            overflow: hidden;
+            position: fixed;
+            background-color: #4F788E;
+            margin-top: 50px;
+            transition: 1s;
+            justify-content: space-between;
+
+            .close-menu {
+                color: white;
+                text-align: right;
+                text-transform: uppercase;
+                font-size: 10px;
+                padding: 5px 5px 5px 5px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .links {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                a {
+                    padding: 0.5rem;
+                    color: white;
+
+                    &:hover {
+                        background-color: #6F90A2;
+                        font-weight: bold;
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-one {
+    background-color: #6F90A2;
+    padding-bottom: 30px;
+
+    .white-button {
+        display: flex;
+        justify-content:center;
+        margin-top: 70px;
+    }
+    
+}
+
+
+.section-three {
+    margin: 5px 30px 5px 30px;
+
+    .sec-three-bline {
+        border-bottom:solid #4F788E;
+    }
+
+}
+
+.section-two {
+
+    padding: 0 30px 40px 30px;
+
+    .para {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .shenton-pics {
+            display: flex;
+            justify-content: center;
+
+            img {
+                display: flex;
+                justify-content: center;
+                width: 400px;
+            }
+        }
+    }
+
+    .blue-button {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section-four {
+    padding: 10px;
+
+    .shenton-pics {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 70%;
+        }
+    }
+}
+
+
+.join-form {
+    padding: 50px 0 30px 0;
+    margin: 0px 20px 20px 20px;
+    background-color: white;
+
+    .center-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form.form {
+        display: flex;
+        flex-direction: column;
+        
+        .two-columns {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            
+        }
+        
+        input, textarea {
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+
+    .join-button {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.questions {
+    padding: 0 10px 10px 10px;
+
+    .faq-questions {
+        padding: 10px 20px 10px 20px;
+        gap: 1rem;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .actual-questions {
+        padding: 0 10px 10px 10px;
+
+        .shenton-pics {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 80%;
+            }
+
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color:#4F788E;
+    color: white;
+    text-align: center;
+    
+}
+
+span {
+    border-bottom: solid white;
+}
+
+div.b-bottom {
+    border-bottom: solid #4F788E;
+}
