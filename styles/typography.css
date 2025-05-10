@@ -1,11 +1,11 @@
 @font-face {
     font-family: source-sans;
-    src: url(/Users/kristenhuang/Documents/gdes2342/final-website/fonts/source-sans.ttf);
+    src: url(fonts/source-sans.ttf);
 }
 
 @font-face {
     font-family: source-serif;
-    src: url(/Users/kristenhuang/Documents/gdes2342/final-website/fonts/source-serif.ttf);
+    src: url(fonts/source-serif.ttf);
 }
 
 .section-one {
